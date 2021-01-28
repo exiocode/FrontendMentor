@@ -1,0 +1,38 @@
+/* Imports */
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+/* Colors */
+/* Fonts */
+/* Root Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #19a2ae;
+  box-sizing: border-box;
+}
+
+.top-img {
+  position: fixed;
+  float: left;
+  left: -10em;
+  top: -20em;
+  z-index: -1;
+}
+
+.bott-img {
+  position: fixed;
+  float: right;
+  right: -10em;
+  bottom: -30em;
+  z-index: -2;
+}
+
+.card {
+  margin: 0 auto;
+  width: 20em;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

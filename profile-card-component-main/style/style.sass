@@ -1,0 +1,51 @@
+/* Imports */
+@import url(https://fonts.google.com/specimen/Kumbh+Sans)
+
+/* Colors */
+$dark-cyan: hsl(185, 75%, 39%)
+$very-dark-blue: hsl(229, 23%, 23%)
+$dark-grayish-blue: hsl(227, 10%, 46%)
+$dark-grey: hsl(0, 0%, 59%)
+
+/* Fonts */
+$font-size: 18px
+$font-family: Kumbh Sans
+$font-weight-reg: 400
+$font-weight-bold: 700
+/* Root Styles */
+*
+    margin: 0
+    padding: 0
+    font-family: $font-family
+    font-size: $font-size
+    font-weight: $font-weight-reg
+    background-color: $dark-cyan
+    box-sizing: border-box
+
+.top-img
+    position: fixed
+    // background-size: cover
+    // height: auto
+    float: left
+    left: -10em
+    top: -20em
+    z-index: -1
+    // display: inline
+    // object-position: 0em -20em
+    // object-fit: none
+
+.bott-img
+    position: fixed
+    float: right
+    right: -10em
+    bottom: -30em
+    z-index: -2
+//     float: right
+//     display: inline
+//     object-position: 10em 0em
+//     object-fit: none
+
+.card
+    margin: 0 auto
+    width: 20em
+    z-index: 1
